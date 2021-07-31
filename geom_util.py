@@ -71,5 +71,3 @@ def calc_box_vector(box):
         idx = [0, 3, 1, 2]
     return (int((box[idx[0]][0] + box[idx[1]][0]) / 2), int((box[idx[0]][1] + box[idx[1]][1]) / 2)), (int((box[idx[2]][0] + box[idx[3]][0]) / 2), int((box[idx[2]][1]  +box[idx[3]][1]) / 2))
 
-
-# 7	14.377631066	87.240.129.129	192.168.1.8	TLSv1.2	105	Application Data
